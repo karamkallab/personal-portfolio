@@ -1,11 +1,18 @@
 import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+
+import botantiqueImg from "@/Projects/Botantique.png";
+import budgetImg from "@/Projects/BudgetPrognos.png";
+import chattImg from "@/Projects/ChattSystem.png";
+import localZeroImg from "@/Projects/localZero.png";
+import plantImg from "@/Projects/PlantWidget.png";
+import spellingImg from "@/Projects/SpellingChecker.png";
 export const projects = [
   {
     title: "Botantique E-commerce Platform",
     description:
       "An e-commerce website developed for a real client, featuring Klarna payment integration, dynamic PostNord shipping, and product management using WordPress and WooCommerce.",
-    image: "src/Projects/Botantique.png",
+    image: botantiqueImg,
     tags: ["WordPress", "WooCommerce", "PHP", "Klarna API", "PostNord API"],
     link: "https://www.botantique.se/",
     github: "https://github.com/karamkallab/Botantique.se",
@@ -14,7 +21,7 @@ export const projects = [
     title: "Budget Forecast Web Application",
     description:
       "A web application for visualizing and forecasting personal finances. Users can track income and expenses and view projected balances through interactive charts and risk indicators.",
-    image: "src/Projects/BudgetPrognos.png",
+    image: budgetImg,
     tags: ["React", "Tailwind CSS", "Node.js", "Data Visualization"],
     /*link: "",*/
     github: "#",
@@ -23,7 +30,7 @@ export const projects = [
     title: "Client-Server Chat System",
     description:
       "A real-time chat system built using a client/server architecture, supporting multiple connected users and message exchange through network communication.",
-    image: "src/Projects/ChattSystem.png",
+    image: chattImg,
     tags: ["Java", "Sockets", "Networking", "Client/Server"],
     /*link: "",*/
     github: "#",
@@ -32,7 +39,7 @@ export const projects = [
     title: "LocalZero Sustainability Platform",
     description:
       "A collaborative platform for neighborhood sustainability initiatives, allowing users to create, manage, and track eco-friendly actions with real-time communication and user authentication.",
-    image: "src/Projects/localZero.png",
+    image: localZeroImg,
     tags: ["Java", "Spring Boot", "PostgreSQL", "WebSockets", "REST API"],
     /*link: "",*/
     github: "https://github.com/karamkallab/LocalZero_mini_p",
@@ -41,7 +48,7 @@ export const projects = [
     title: "My Happy Plant",
     description:
       "A plant-care management application where users can log in, track their plants, and retrieve plant data via external APIs. Includes authentication and database storage.",
-    image: "src/Projects/PlantWidget.png",
+    image: plantImg,
     tags: ["React", "Next.js", "Prisma", "Tailwind CSS", "APIs"],
     /*link: "",*/
     github: "https://github.com/karamkallab/MyHappyPlants",
@@ -50,7 +57,7 @@ export const projects = [
     title: "Grammar Checker for Social Media",
     description:
       "A tool that checks grammar before publishing social media posts by integrating external spell-checking and publishing APIs. Built with a Spring Boot backend and web-based frontend.",
-    image: "src/Projects/SpellingChecker.png",
+    image: spellingImg,
     tags: ["Java", "Spring Boot", "REST API", "HTML", "JavaScript"],
     /*link: "",*/
     github: "https://github.com/karamkallab/BlueSkyProject",
