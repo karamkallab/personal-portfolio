@@ -6,6 +6,9 @@ import { ArrowRight,
   Download,
  } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import heroBg from "@/Projects/hero-bg.jpg";
+import profilePhoto from "@/Projects/profile-photo.jpg";
+import cvPdf from "@/Projects/Karam-Kallab-CV.pdf";
 
 const skills = [
   "Java",
@@ -57,7 +60,7 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="src/Projects/hero-bg..jpg"
+          src={heroBg}
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -113,7 +116,7 @@ export const Hero = () => {
                   Get in touch <ArrowRight className="w-5 h-5" />
                 </Button>
               </a>
-              <AnimatedBorderButton href="src\Projects\Karam-Kallab-CV.pdf" download>
+              <AnimatedBorderButton href={cvPdf} download>
                   <Download className="w-5 h-5" />
                   Download CV
               </AnimatedBorderButton>
@@ -141,7 +144,7 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="src/Projects/profile-photo.jpg"
+                  src={profilePhoto}
                   alt="Karam Kallab"
                   className="w-full aspect-[4/5] rounded-2xl"
                 />
