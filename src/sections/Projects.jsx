@@ -7,7 +7,17 @@ import chattImg from "@/Projects/ChattSystem.png";
 import localZeroImg from "@/Projects/localZero.png";
 import plantImg from "@/Projects/PlantWidget.png";
 import spellingImg from "@/Projects/SpellingChecker.png";
+import vehileImg from "@/Projects/vclmonitoring.png";
 export const projects = [
+ {
+  title: "Vehicle Monitoring System",
+  description:
+    "A vehicle monitoring and tracking system that provides real-time data insights and status updates. Designed to monitor performance metrics and improve fleet efficiency.",
+  image: vehileImg,
+  tags: ["React", "Node.js", "Monitoring", "Data Visualization"],
+  /*link: "",*/
+  github: "https://github.com/karamkallab/vehicle-diagnostic-dashboard",
+  },
   {
     title: "Botantique E-commerce Platform",
     description:
