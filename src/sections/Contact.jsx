@@ -18,12 +18,6 @@ const contactInfo = [
     href: "mailto:karamkallab693@gmail.com",
   },
   {
-    icon: Phone,
-    label: "Phone",
-    value: "+46790382622",
-    href: "tel:+15551234567",
-  },
-  {
     icon: MapPin,
     label: "Location",
     value: "Malmö, Sweden",
