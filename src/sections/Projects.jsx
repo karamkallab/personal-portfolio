@@ -14,7 +14,7 @@ export const projects = [
   description:
     "A vehicle monitoring and tracking system that provides real-time data insights and status updates. Designed to monitor performance metrics and improve fleet efficiency.",
   image: vehileImg,
-  tags: ["React", "Node.js", "Monitoring", "Data Visualization"],
+  tags: ["Html", "Css", "Java", "Data Visualization"],
   /*link: "",*/
   github: "https://github.com/karamkallab/vehicle-diagnostic-dashboard",
   },
