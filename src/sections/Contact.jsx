@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "karamkallabb693@gmail.com",
+    value: "KaramKallab693@gmail.com",
     href: "mailto:karamkallab693@gmail.com",
   },
   {
