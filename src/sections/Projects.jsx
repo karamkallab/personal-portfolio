@@ -42,7 +42,7 @@ export const projects = [
     image: chattImg,
     tags: ["Java", "Sockets", "Networking", "Client/Server"],
     /*link: "",*/
-    github: "#",
+    github: "https://github.com/karamkallab/ClientServerChatt",
   },
   {
     title: "LocalZero Sustainability Platform",
