@@ -2,7 +2,7 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 import botantiqueImg from "@/Projects/Botantique.png";
-import budgetImg from "@/Projects/BudgetPrognos.png";
+//import budgetImg from "@/Projects/BudgetPrognos.png";
 import chattImg from "@/Projects/ChattSystem.png";
 import localZeroImg from "@/Projects/localZero.png";
 import plantImg from "@/Projects/PlantWidget.png";
@@ -27,15 +27,14 @@ export const projects = [
     link: "https://www.botantique.se/",
     github: "https://github.com/karamkallab/Botantique.se",
   },
-  {
+  /*{
     title: "Budget Forecast Web Application",
     description:
       "A web application for visualizing and forecasting personal finances. Users can track income and expenses and view projected balances through interactive charts and risk indicators.",
     image: budgetImg,
     tags: ["React", "Tailwind CSS", "Node.js", "Data Visualization"],
     /*link: "",*/
-    github: "#",
-  },
+  /** */
   {
     title: "Client-Server Chat System",
     description:
