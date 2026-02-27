@@ -11,12 +11,13 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser"; 
 
 const contactInfo = [
-  {
+  /*{
     icon: Mail,
     label: "Email",
     value: "KaramKallab693@gmail.com",
     href: "mailto:karamkallab693@gmail.com",
   },
+  */
   {
     icon: MapPin,
     label: "Location",
