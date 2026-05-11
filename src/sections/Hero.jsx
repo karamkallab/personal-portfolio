@@ -7,8 +7,8 @@ import { ArrowRight,
  } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import heroBg from "@/Projects/hero-bg.jpg";
-import profilePhoto from "@/Projects/profile-photo.jpg";
-import cvPdf from "@/Projects/Karam-Kallab-CV.pdf";
+import profilePhoto from "@/Projects/PB.png";
+import cvPdf from "@/Projects/Karam-Kallab-CV..pdf";
 
 const skills = [
   "Java",
@@ -104,7 +104,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Karam Kallab — a system developer with a candidate degree,
+                Hi, I’m Karam Kallab — a Software Engineer with a candidate degree,
                 focused on designing and building scalable, high-performance
                 applications with clean and reliable code.
               </p>
@@ -155,7 +155,7 @@ export const Hero = () => {
                   </div>
                 </div>
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">3+</div>
+                  <div className="text-2xl font-bold text-primary">4+</div>
                   <div className="text-xs text-muted-foreground">
                     Years of Experience
                   </div>

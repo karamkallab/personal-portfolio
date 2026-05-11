@@ -49,8 +49,8 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I’m Karam Kallab, a system developer with a candidate degree and a strong
-                foundation in modern software development. I focus on building robust,
+                I’m Karam Kallab, a Software Engineer with a candidate degree and a strong
+                foundation in modern Software Engineering. I focus on building robust,
                 scalable solutions that solve real-world problems.
               </p>
               <p>

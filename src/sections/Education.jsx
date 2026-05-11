@@ -2,9 +2,9 @@ export const educationData = [
   {
     period: "2023 - 2026 (Expected)",
     institution: "Malmö University",
-    degree: "B.Sc. in System Development",
+    degree: "B.Sc. in Software Engineering",
     description:
-      "Focused on full-stack software development, object-oriented programming (OOP), data structures and algorithms, client/server architectures, and database-driven systems. Hands-on experience with RESTful APIs, software architecture, and system integration. Relevant coursework includes Object-Oriented Programming, Data Structures and Algorithms, Database Systems, Web Services, Information Security, and Applied Software Architecture. Swedish Scholastic Aptitude Test (Högskoleprovet): 1.55.",
+      "Focused on full-stack Software Engineering, object-oriented programming (OOP), data structures and algorithms, client/server architectures, and database-driven systems. Hands-on experience with RESTful APIs, software architecture, and system integration. Relevant coursework includes Object-Oriented Programming, Data Structures and Algorithms, Database Systems, Web Services, Information Security, and Applied Software Architecture. Swedish Scholastic Aptitude Test (Högskoleprovet): 1.55.",
   },
 ];
 
