@@ -104,7 +104,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I’m Karam Kallab — a Software Engineer with a candidate degree,
+                Hi, I’m Karam Kallab — a Software Engineer with a a BSc in Computer Science,
                 focused on designing and building scalable, high-performance
                 applications with clean and reliable code.
               </p>

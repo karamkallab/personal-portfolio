@@ -49,7 +49,7 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I’m Karam Kallab, a Software Engineer with a candidate degree and a strong
+                I’m Karam Kallab, a Software Engineer with a BSc in Computer Science and a strong
                 foundation in modern Software Engineering. I focus on building robust,
                 scalable solutions that solve real-world problems.
               </p>
