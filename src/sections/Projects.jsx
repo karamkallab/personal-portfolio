@@ -9,6 +9,7 @@ import plantImg from "@/Projects/PlantWidget.png";
 import spellingImg from "@/Projects/SpellingChecker.png";
 import vehileImg from "@/Projects/vclmonitoring.png";
 import recipebookImg from "@/Projects/RecipeBook.png";
+
 export const projects = [
   {
     title: "RecipeBook",
@@ -19,15 +20,6 @@ export const projects = [
     github: "https://github.com/karamkallab/recipe-api-dotnet",
   },
   {
-  title: "Vehicle Monitoring System",
-  description:
-    "A vehicle monitoring and tracking system that provides real-time data insights and status updates. Designed to monitor performance metrics and improve fleet efficiency.",
-  image: vehileImg,
-  tags: ["Html", "Css", "Java", "Data Visualization"],
-  /*link: "",*/
-  github: "https://github.com/karamkallab/vehicle-diagnostic-dashboard",
-  },
-  {
     title: "Botantique E-commerce Platform",
     description:
       "An e-commerce website developed for a real client, featuring Klarna payment integration, dynamic PostNord shipping, and product management using WordPress and WooCommerce.",
@@ -35,23 +27,6 @@ export const projects = [
     tags: ["WordPress", "WooCommerce", "PHP", "Klarna API", "PostNord API"],
     link: "https://www.botantique.se/",
     github: "https://github.com/karamkallab/Botantique.se",
-  },
-  /*{
-    title: "Budget Forecast Web Application",
-    description:
-      "A web application for visualizing and forecasting personal finances. Users can track income and expenses and view projected balances through interactive charts and risk indicators.",
-    image: budgetImg,
-    tags: ["React", "Tailwind CSS", "Node.js", "Data Visualization"],
-    /*link: "",*/
-  /** */
-  {
-    title: "Client-Server Chat System",
-    description:
-      "A real-time chat system built using a client/server architecture, supporting multiple connected users and message exchange through network communication.",
-    image: chattImg,
-    tags: ["Java", "Sockets", "Networking", "Client/Server"],
-    /*link: "",*/
-    github: "https://github.com/karamkallab/ClientServerChatt",
   },
   {
     title: "LocalZero Sustainability Platform",
@@ -72,6 +47,15 @@ export const projects = [
     github: "https://github.com/karamkallab/MyHappyPlants",
   },
   {
+    title: "Client-Server Chat System",
+    description:
+      "A real-time chat system built using a client/server architecture, supporting multiple connected users and message exchange through network communication.",
+    image: chattImg,
+    tags: ["Java", "Sockets", "Networking", "Client/Server"],
+    /*link: "",*/
+    github: "https://github.com/karamkallab/ClientServerChatt",
+  },
+  {
     title: "Grammar Checker for Social Media",
     description:
       "A tool that checks grammar before publishing social media posts by integrating external spell-checking and publishing APIs. Built with a Spring Boot backend and web-based frontend.",
@@ -80,6 +64,23 @@ export const projects = [
     /*link: "",*/
     github: "https://github.com/karamkallab/BlueSkyProject",
   },
+  {
+    title: "Vehicle Monitoring System",
+    description:
+      "A vehicle monitoring and tracking system that provides real-time data insights and status updates. Designed to monitor performance metrics and improve fleet efficiency.",
+    image: vehileImg,
+    tags: ["Html", "Css", "Java", "Data Visualization"],
+    /*link: "",*/
+    github: "https://github.com/karamkallab/vehicle-diagnostic-dashboard",
+  },
+  /*{
+    title: "Budget Forecast Web Application",
+    description:
+      "A web application for visualizing and forecasting personal finances. Users can track income and expenses and view projected balances through interactive charts and risk indicators.",
+    image: budgetImg,
+    tags: ["React", "Tailwind CSS", "Node.js", "Data Visualization"],
+    /*link: "",*/
+  /** */
 ];
 
 export const Projects = () => {
@@ -125,7 +126,7 @@ return (
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div
-                className="absolute inset-0 
+                className="absolute inset-0
                 bg-gradient-to-t from-card via-card/50
                 to-transparent opacity-60"
                 />
@@ -164,9 +165,9 @@ return (
                     {project.title}
                 </h3>
                 <ArrowUpRight
-                    className="w-5 h-5 
+                    className="w-5 h-5
                 text-muted-foreground group-hover:text-primary
-                group-hover:translate-x-1 
+                group-hover:translate-x-1
                 group-hover:-translate-y-1 transition-all"
                 />
                 </div>
