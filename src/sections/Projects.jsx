@@ -8,8 +8,17 @@ import localZeroImg from "@/Projects/localZero.png";
 import plantImg from "@/Projects/PlantWidget.png";
 import spellingImg from "@/Projects/SpellingChecker.png";
 import vehileImg from "@/Projects/vclmonitoring.png";
+import recipebookImg from "@/Projects/RecipeBook.png";
 export const projects = [
- {
+  {
+    title: "RecipeBook",
+    description:
+      "A fullstack project with a REST API built in ASP.NET Core 8, Entity Framework Core, JWT authentication, and a vanilla JS frontend. Users can register, log in, and manage their own recipes with ingredients and instructions.",
+    image: recipebookImg,
+    tags: ["C#", "ASP.NET Core 8", "Entity Framework", "SQLite", "JWT", "JavaScript"],
+    github: "https://github.com/karamkallab/recipe-api-dotnet",
+  },
+  {
   title: "Vehicle Monitoring System",
   description:
     "A vehicle monitoring and tracking system that provides real-time data insights and status updates. Designed to monitor performance metrics and improve fleet efficiency.",
