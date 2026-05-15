@@ -6,7 +6,8 @@
       "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:5022/app\" -UseBasicParsing -TimeoutSec 5; \"Status: $\\($r.StatusCode\\), Length: $\\($r.Content.Length\\)\" } catch { \"Error: $_\" })",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "PowerShell(Get-Item *)"
     ]
   }
 }
