@@ -8,7 +8,7 @@ import { ArrowRight,
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import heroBg from "@/Projects/hero-bg.jpg";
 import profilePhoto from "@/Projects/PB.png";
-import cvPdf from "@/Projects/Karam-Kallab-CV..pdf";
+import cvPdf from "@/Projects/Karam-Kallab-CV.pdf";
 
 const skills = [
   "Java",
