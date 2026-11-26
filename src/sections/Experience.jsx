@@ -1,5 +1,14 @@
 const experiences = [
   {
+    period: "September 2026 — Present",
+    role: "AI Developer",
+    company: "Qronos – Malmö",
+    description:
+      "Working as a consultant developer on a client assignment in the banking sector. Building an internal knowledge-base web application in Blazor and .NET with a DAPR-based architecture, and setting up the deployment pipeline with SonarQube quality gates and code coverage.",
+    technologies: ["C#", ".NET", "Blazor", "DAPR", "Docker", "Azure DevOps", "CI/CD", "SonarQube"],
+    current: true,
+  },
+  {
     period: "May 2025 — Present",
     role: "Lifeguard",
     company: "Malmö City",
@@ -99,7 +108,7 @@ export const Experience = () => {
            Work Experience{" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-               Beyond IT.
+               In IT & Beyond.
             </span>
           </h2>
 
@@ -107,7 +116,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my work experience in other fields.
+            A timeline of my professional experience, from software development to other fields.
           </p>
         </div>
 
