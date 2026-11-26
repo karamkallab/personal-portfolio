@@ -9,8 +9,17 @@ import plantImg from "@/Projects/PlantWidget.png";
 import spellingImg from "@/Projects/SpellingChecker.png";
 import vehileImg from "@/Projects/vclmonitoring.png";
 import recipebookImg from "@/Projects/RecipeBook.png";
+import gymloggImg from "@/Projects/Gymlogg.png";
 
 export const projects = [
+  {
+    title: "Gymlogg",
+    description:
+      "A mobile-first workout logger built to be simple and fast to use mid-session. Users create routines, log sets with weight and reps, get a rest timer between sets, track personal records and progress per exercise, and follow friends in a shared group feed. Installable as a PWA.",
+    image: gymloggImg,
+    tags: ["Next.js", "React", "Supabase", "PostgreSQL", "Tailwind CSS", "PWA", "Vercel"],
+    link: "https://gymlogg-one.vercel.app/",
+  },
   {
     title: "RecipeBook",
     description:
